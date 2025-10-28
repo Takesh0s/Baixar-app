@@ -1,0 +1,43 @@
+# 📱 Página de Download do Aplicativo - ResultPlus
+
+Este projeto fornece uma **página automatizada e inteligente** para download do aplicativo **ResultPlus** (FLW Chat).  
+Ela detecta automaticamente o sistema operacional do usuário (Android ou iOS) e redireciona para o link correto da loja.  
+Caso o acesso seja feito por computador, o usuário pode escolher manualmente o sistema desejado através de um pop-up estilizado.
+
+---
+
+## 🚀 Funcionalidades
+
+✅ **Detecção Automática**  
+Identifica o tipo de dispositivo (Android ou iPhone) e redireciona para o app correspondente.
+
+✅ **Design Moderno e Responsivo**  
+Interface simples, elegante e adaptável a qualquer tela.
+
+✅ **Fallback para Desktop**  
+Em computadores ou navegadores desconhecidos, o usuário vê dois botões (Android e iPhone).
+
+✅ **Integração com Helena CRM**  
+Pode ser usada diretamente como ação personalizada ou botão de app dentro do CRM.
+
+---
+
+## 🧠 Lógica de Redirecionamento
+
+| Plataforma | Ação |
+|-------------|------|
+| Android | Redireciona para [Google Play](https://play.google.com/store/apps/details?id=chat.wts.app&pcampaignid=web_share) |
+| iOS | Redireciona para [App Store](https://apps.apple.com/br/app/flw-chat/id6481528795) |
+| Outros (PC, Mac, etc.) | Mostra pop-up com ambas as opções |
+
+---
+
+## ⚙️ Instalação e Uso
+
+1. **Baixe o arquivo** `baixar-app.html`
+2. **Hospede** em um serviço gratuito como:
+   - [Vercel](https://vercel.com)
+   - [Netlify](https://netlify.com)
+   - [GitHub Pages](https://pages.github.com)
+3. Copie o **link público** da página hospedada.
+4. No **Helena CRM**, acesse:
